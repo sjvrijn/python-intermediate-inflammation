@@ -16,3 +16,12 @@ Several tests have been implemented already, some of which are currently failing
 These failing tests set out the requirements for the additional code to be implemented during the workshop.
 
 The tests should be run using `pytest`, which will be introduced during the workshop.
+
+## How to contribute
+
+First clone the repository and install the requirements.
+`pip install -r requirements.txt`
+
+Then create a new branch for your feature, and create a Pull Request for that branch.
+
+Make sure that you add new tests for new code, and that all previous tests still work when you run `pytest`.
